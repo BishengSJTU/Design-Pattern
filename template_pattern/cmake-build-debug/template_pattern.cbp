@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/bisheng/CLionProjects/Design pattern/template_pattern/application.cpp">
+			<Option target="template_pattern"/>
+		</Unit>
+		<Unit filename="/home/bisheng/CLionProjects/Design pattern/template_pattern/application.h">
+			<Option target="template_pattern"/>
+		</Unit>
+		<Unit filename="/home/bisheng/CLionProjects/Design pattern/template_pattern/library.cpp">
+			<Option target="template_pattern"/>
+		</Unit>
+		<Unit filename="/home/bisheng/CLionProjects/Design pattern/template_pattern/library.h">
+			<Option target="template_pattern"/>
+		</Unit>
 		<Unit filename="/home/bisheng/CLionProjects/Design pattern/template_pattern/main.cpp">
 			<Option target="template_pattern"/>
 		</Unit>

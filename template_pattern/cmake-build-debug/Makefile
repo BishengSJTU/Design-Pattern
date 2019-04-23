@@ -123,6 +123,60 @@ template_pattern/fast:
 	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/build
 .PHONY : template_pattern/fast
 
+application.o: application.cpp.o
+
+.PHONY : application.o
+
+# target to build an object file
+application.cpp.o:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/application.cpp.o
+.PHONY : application.cpp.o
+
+application.i: application.cpp.i
+
+.PHONY : application.i
+
+# target to preprocess a source file
+application.cpp.i:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/application.cpp.i
+.PHONY : application.cpp.i
+
+application.s: application.cpp.s
+
+.PHONY : application.s
+
+# target to generate assembly for a file
+application.cpp.s:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/application.cpp.s
+.PHONY : application.cpp.s
+
+library.o: library.cpp.o
+
+.PHONY : library.o
+
+# target to build an object file
+library.cpp.o:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/library.cpp.o
+.PHONY : library.cpp.o
+
+library.i: library.cpp.i
+
+.PHONY : library.i
+
+# target to preprocess a source file
+library.cpp.i:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/library.cpp.i
+.PHONY : library.cpp.i
+
+library.s: library.cpp.s
+
+.PHONY : library.s
+
+# target to generate assembly for a file
+library.cpp.s:
+	$(MAKE) -f CMakeFiles/template_pattern.dir/build.make CMakeFiles/template_pattern.dir/library.cpp.s
+.PHONY : library.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... template_pattern"
 	@echo "... edit_cache"
+	@echo "... application.o"
+	@echo "... application.i"
+	@echo "... application.s"
+	@echo "... library.o"
+	@echo "... library.i"
+	@echo "... library.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

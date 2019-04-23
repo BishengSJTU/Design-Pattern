@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/bisheng/CLionProjects/Design pattern/template_pattern/application.cpp" "/home/bisheng/CLionProjects/Design pattern/template_pattern/cmake-build-debug/CMakeFiles/template_pattern.dir/application.cpp.o"
+  "/home/bisheng/CLionProjects/Design pattern/template_pattern/library.cpp" "/home/bisheng/CLionProjects/Design pattern/template_pattern/cmake-build-debug/CMakeFiles/template_pattern.dir/library.cpp.o"
   "/home/bisheng/CLionProjects/Design pattern/template_pattern/main.cpp" "/home/bisheng/CLionProjects/Design pattern/template_pattern/cmake-build-debug/CMakeFiles/template_pattern.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -3,4 +3,4 @@ project(template_pattern)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(template_pattern main.cpp)
+add_executable(template_pattern main.cpp library.h library.cpp application.h application.cpp)

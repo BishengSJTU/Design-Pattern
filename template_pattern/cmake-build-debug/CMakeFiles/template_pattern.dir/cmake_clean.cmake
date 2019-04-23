@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/template_pattern.dir/main.cpp.o"
+  "CMakeFiles/template_pattern.dir/library.cpp.o"
+  "CMakeFiles/template_pattern.dir/application.cpp.o"
   "template_pattern.pdb"
   "template_pattern"
 )

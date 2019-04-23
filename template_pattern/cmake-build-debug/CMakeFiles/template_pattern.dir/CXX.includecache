@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bisheng/CLionProjects/Design pattern/template_pattern/application.cpp
+application.h
+/home/bisheng/CLionProjects/Design pattern/template_pattern/application.h
+
+/home/bisheng/CLionProjects/Design pattern/template_pattern/application.h
+library.h
+/home/bisheng/CLionProjects/Design pattern/template_pattern/library.h
+iostream
+-
+
+/home/bisheng/CLionProjects/Design pattern/template_pattern/library.h
+iostream
+-
+
+/home/bisheng/CLionProjects/Design pattern/template_pattern/main.cpp
+iostream
+-
+library.h
+/home/bisheng/CLionProjects/Design pattern/template_pattern/library.h
+application.h
+/home/bisheng/CLionProjects/Design pattern/template_pattern/application.h
+
